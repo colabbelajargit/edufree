@@ -1,0 +1,24 @@
+:root {
+  font-family: "Poppins";
+  --primary: ##1c1e53;
+  --font: #282938;
+  --yellow: #fcd980;
+  --white: #fafafa;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.navcol {
+  background-color: #1c1e53;
+}
+.navbar-brand {
+  color: var(--white);
+}
+.offcanvas-header .offcanvas-title {
+  color: var(--white);
+}
+.offcanvas-body .nav-link {
+  color: var(--white);
+}
