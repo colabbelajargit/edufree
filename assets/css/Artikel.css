@@ -22,3 +22,7 @@ body {
 .offcanvas-body .nav-link {
   color: var(--white);
 }
+.navbar-toggler-icon {
+  background-color: white;
+  color: white;
+}
