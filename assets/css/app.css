@@ -28,3 +28,7 @@ body {
     color: #fafafa;
     background-color: #fafafa;
 }
+
+.btn {
+    color: var(--font);
+}
