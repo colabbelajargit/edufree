@@ -1,0 +1,30 @@
+:root {
+    font-family: "Poppins";
+    --color-primary: #1C1E53;
+    --color-secondary: #EEF4FA;
+    --color-tertiary: #FCD980;
+    --font: #fafafa;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+#navbar {
+    background-color: var(--color-primary);
+}
+
+.navbar-brand {
+    color: var(--font);
+}
+
+.nav-link {
+    color: var(--font);
+}
+.offcanvas-header .offcanvas-title {
+    color: var(--font);
+}
+.navbar-toggler-icon {
+    color: #fafafa;
+    background-color: #fafafa;
+}
