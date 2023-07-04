@@ -79,10 +79,18 @@ body {
     line-height: 150%;
 }
 
+.hero-content a:hover {
+    text-decoration: underline;
+}
+
 .hero-content .button-hero {
     background-color: var(--color-tertiary);
     color: #000;
     padding: 10px 30px;
+}
+
+.hero-content .button-hero:hover {
+    background-color: #f8c442;
 }
 
 .hero-content .arrow {
@@ -91,4 +99,32 @@ body {
 
 .hero-image {
     width: 500px;
+}
+
+
+/* -- DATA -- */
+#data {
+    background-color: var(--color-secondary);
+    height: 25vh;
+}
+
+#data .navbar h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+#data .navbar h3 span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#data .navbar p {
+    font-size: 18px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.data-text img {
+    width: 20px;
 }
