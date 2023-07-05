@@ -9,7 +9,7 @@
 body {
   font-family: "Poppins";
 }
-
+/*navbar*/
 .navcol {
   background-color: #1c1e53;
 }
@@ -25,4 +25,10 @@ body {
 .navbar-toggler-icon {
   background-color: white;
   color: white;
+}
+.breadcrumba {
+  background-color: #eef4fa;
+}
+.breadcrumb-item a {
+  text-decoration: none;
 }
