@@ -79,10 +79,6 @@ body {
     line-height: 150%;
 }
 
-.hero-content a:hover {
-    text-decoration: underline;
-}
-
 .hero-content .button-hero {
     background-color: var(--color-tertiary);
     color: #000;
@@ -105,26 +101,57 @@ body {
 /* -- DATA -- */
 #data {
     background-color: var(--color-secondary);
-    height: 25vh;
+    height: 30vh;
 }
 
-#data .navbar h3 {
+#data .box-data h3 {
     font-size: 28px;
     font-weight: 600;
     line-height: 30px;
 }
 
-#data .navbar h3 span {
+#data .box-data h3 span {
     font-weight: 400;
     font-size: 14px;
 }
 
-#data .navbar p {
+.data-text {
     font-size: 18px;
     font-weight: 700;
-    vertical-align: middle;
+    text-transform: uppercase;
 }
 
 .data-text img {
-    width: 20px;
+    width: 16px; 
+    margin-right: 5px;
+}
+
+/* FEATURES */
+
+.features {
+    margin-top: 100px;
+}
+
+.features-content h1 {
+    margin-bottom: 5%;
+}
+
+.features-content .row img {
+    width: 30px;
+}
+
+.features-content .card {
+    padding: 30px;
+    background-color: #F4F6FC;
+    border: none;
+    border-radius: 0;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card p {
+    font-size: 12px;
 }
