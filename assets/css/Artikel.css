@@ -32,6 +32,10 @@ body {
 .breadcrumb-item a {
   text-decoration: none;
 }
+/*filtering */
+li .filtering {
+  color: var(--font);
+}
 
 /*artikel*/
 .course-card {
@@ -51,7 +55,7 @@ body {
 .icon-text {
   display: flex;
   align-items: center;
-  white-space: nowrap;
+  white-space: pre;
 }
 .rating-box {
   position: absolute;
