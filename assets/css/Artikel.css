@@ -1,6 +1,6 @@
 :root {
   font-family: "Poppins";
-  --primary: ##1c1e53;
+  --primary: #1c1e53;
   --font: #282938;
   --yellow: #fcd980;
   --white: #fafafa;
@@ -104,4 +104,20 @@ li .filtering {
   font-size: 12px;
   font-weight: bold;
   color: white;
+}
+/*footer*/
+.foootercolor {
+  background-color: var(--primary);
+}
+.footetitle {
+  font-size: 24px;
+}
+.footerdes {
+  font-size: 16px;
+}
+.menufooter {
+  font-size: 20px;
+}
+..menufooter {
+  font-size: 18px;
 }
