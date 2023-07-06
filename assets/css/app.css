@@ -155,3 +155,22 @@ body {
 .card p {
     font-size: 12px;
 }
+
+/* TENTANG KAMI */
+
+.tentang-kami {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.tentang-kami span {
+    font-size: 12px;
+}
+
+.tentang-kami p {
+    font-size: 14px;
+}
+
+.tentang-kami img {
+    max-width: 500px;
+}
