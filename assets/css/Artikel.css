@@ -121,3 +121,19 @@ li .filtering {
 ..menufooter {
   font-size: 18px;
 }
+.boxfoooter {
+  background-color: var(--yellow);
+  width: 420px;
+  height: 88px;
+}
+@media (max-width: 768px) {
+  .boxfoooter {
+    width: 80%;
+    height: 80%;
+    padding: 5px;
+    margin: 0;
+  }
+}
+.footerboxtitle {
+  color: var(--font);
+}
