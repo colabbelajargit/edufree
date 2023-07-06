@@ -174,3 +174,13 @@ body {
 .tentang-kami img {
     max-width: 500px;
 }
+
+/* KURSUR */
+
+.kursus {
+    margin-top: 100px;
+}
+
+.kursus .dropdown {
+    width: 100%;
+}
