@@ -105,6 +105,17 @@ li .filtering {
   font-weight: bold;
   color: white;
 }
+/*plagination*/
+.btn-yellow {
+  background-color: #eeeaea;
+  color: white;
+  font-weight: bold;
+}
+.pagination .page-item.active .page-link {
+  background-color: var(--yellow);
+  border-color: var(--yellow)
+  color: white;
+}
 /*footer*/
 .foootercolor {
   background-color: var(--primary);
@@ -135,5 +146,11 @@ li .filtering {
   }
 }
 .footerboxtitle {
+  color: var(--font);
+}
+.footerbw1 {
+  color: var(--font);
+}
+.footerbw2 {
   color: var(--font);
 }
