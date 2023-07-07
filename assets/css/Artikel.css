@@ -154,3 +154,16 @@ li .filtering {
 .footerbw2 {
   color: var(--font);
 }
+/*Detail Artikels*/
+.titledetail1{
+  color: var(--font);
+  font-size:24px;
+}
+.titledetail2{
+  color: var(--font);
+  font-size: 38px;
+}
+.titledetail3{
+  color: var(--font);
+  font-size: 16px;
+}
