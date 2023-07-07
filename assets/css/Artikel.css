@@ -167,3 +167,23 @@ li .filtering {
   color: var(--font);
   font-size: 16px;
 }
+
+/*----navdetailartike*/
+.navdetailartike{
+  text-decoration: none;
+  color: var(--font);
+  font-weight: medium;
+}
+@media (max-width: 576px) {
+  .navbar-top {
+      display: block;
+  }
+  
+  .navbar-bottom {
+      display: block;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+  }
+}
