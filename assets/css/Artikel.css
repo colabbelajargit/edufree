@@ -32,6 +32,7 @@ body {
 .breadcrumb-item a {
   text-decoration: none;
 }
+
 /*filtering */
 li .filtering {
   color: var(--font);
@@ -155,35 +156,29 @@ li .filtering {
   color: var(--font);
 }
 /*Detail Artikels*/
-.titledetail1{
+.titledetail1 {
   color: var(--font);
-  font-size:24px;
+  font-size:24px
 }
 .titledetail2{
   color: var(--font);
-  font-size: 38px;
+  font-size:42px
 }
 .titledetail3{
   color: var(--font);
-  font-size: 16px;
+  font-size:16px;
 }
-
-/*----navdetailartike*/
-.navdetailartike{
-  text-decoration: none;
-  color: var(--font);
-  font-weight: medium;
-}
-@media (max-width: 576px) {
-  .navbar-top {
-      display: block;
+@media (max-width: 768px) {
+  .titledetail1 {
+    color: var(--font);
+    font-size:16px
   }
-  
-  .navbar-bottom {
-      display: block;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
+  .titledetail2{
+    color: var(--font);
+    font-size:24px
   }
+  .titledetail3{
+    color: var(--font);
+    font-size:12px;
+    
 }
