@@ -184,3 +184,23 @@ body {
 .kursus .dropdown {
     width: 100%;
 }
+
+.card {
+    border-radius: 0;
+    border: 0;
+}
+
+.card img {
+    border-radius: 0;
+}
+
+/* TESTIMONI */
+
+.testimoni {
+    background-color: var(--color-secondary);
+}
+
+.testimoni .people .photo img {
+    width: 50px;
+    border-radius: 50px;
+}
