@@ -214,6 +214,11 @@ body {
 
 /* REGISTRATION */
 
+.registration {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .registration .box {
     max-height: 700px;
 }
@@ -250,6 +255,14 @@ body {
 
 /* BLOG */
 
-.box-content .card img {
-    width: 250px;
+/* FOOTER */
+footer {
+    background-color: var(--color-primary);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 340px;
+}
+
+footer .box-title {
+    color: var(--font);
 }
