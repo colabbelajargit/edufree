@@ -204,3 +204,34 @@ body {
     width: 50px;
     border-radius: 50px;
 }
+
+
+/* FAQ */
+
+.faq {
+    margin: 100px 0;
+}
+
+/* REGISTRATION */
+
+.registration .box {
+    max-height: 700px;
+}
+
+.registration .box-left {
+    background: linear-gradient(to right, rgba(0,0,0,.3), rgba(0,0,0,.4)), url("https://res.cloudinary.com/ddzkvbulh/image/upload/v1689152365/regis-img_vll6cq.png");
+    background-size: cover;
+}
+
+.registration .box-right {
+    background-color: var(--color-primary);
+    color: #fafafa;
+    padding: 100px;
+}
+
+.registration .box-right .btn {
+    background-color: var(--color-tertiary);
+    color: #000;
+    font-weight: 600;
+    letter-spacing: .25rem;
+}
