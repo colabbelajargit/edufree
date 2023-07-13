@@ -101,7 +101,6 @@ body {
 /* -- DATA -- */
 #data {
     background-color: var(--color-secondary);
-    height: 30vh;
 }
 
 #data .box-data h3 {
