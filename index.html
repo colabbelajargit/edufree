@@ -1,182 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EDUFREE</title>
 
     <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/app.css" />
 
     <!-- FONT -->
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Inter:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"/>
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Inter:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <!-- START HEADER -->
-      <nav class="navbar navbar-expand-lg fixed-top w-100" id="navbar">
-        <div class="container w-100 h-auto">
-          <a class="navbar-brand" href="#">[EDUFREE]</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav mx-auto me-4">
-                <li class="nav-item mx-1">
-                  <a class="nav-link" aria-current="page" href="#">HOME</a>
-                </li>
-                <li class="nav-item mx-1">
-                  <a class="nav-link" href="#">TENTANG KAMI</a>
-                </li>
-                <li class="nav-item mx-1">
-                  <a class="nav-link">KURSUS</a>
-                </li>
-                <li class="nav-item mx-1">
-                  <a class="nav-link">FAQ</a>
-                </li>
-                <li class="nav-item mx-1">
-                  <a class="nav-link">
-                    BLOG
-                    <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688475540/Vector_nqll6x.png" alt="">
-                  </a>
-                </li>
-                <li class="nav-item ms-5">
-                  <button class="btn btn-outline-primary px-4 btn-login">Login</button>
-                </li>
-              </ul>
-            </div>
+    <!-- responsive mobile  -->
+    <nav class="navbar navbar-expand-lg fixed-top w-100" id="navbar">
+      <div class="container w-100 h-auto">
+        <a class="navbar-brand" href="#">[EDUFREE]</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav mx-auto me-4">
+              <li class="nav-item mx-1">
+                <a class="nav-link" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" href="#">TENTANG KAMI</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link">KURSUS</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link">FAQ</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link">
+                  BLOG
+                  <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688475540/Vector_nqll6x.png" alt="" />
+                </a>
+              </li>
+              <li class="nav-item ms-5">
+                <button class="btn btn-outline-primary px-4 btn-login">Login</button>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!-- End Header -->
 
     <!-- START SECTION HERO -->
-      <section id="hero">
-        <div class="container">
-          <div class="box-container row align-items-center">
-            <div class="col-lg-6 col-md-9 col-sm-12 my-auto hero-content">
-              <h1 class="mt-4 fw-semibold">Bangun dan Wujudkan Cita Bersama EDUFREE</h1>
-              <p>EDUFREE adalah sebuah layanan kursus dan pelatihan gratis secara online yang bertujuan untuk membantu kamu meraih cita di bidang teknologi.</p>
-              <button class="btn button-hero fw-medium me-3">Lihat Kursus</button>
-              <a class="link-hero text-light text-decoration-none" href="#">
-                Lihat Alur Belajar
-                <img class="arrow" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688477675/arrow_epojfm.png" alt="long-arrow-right"/>
-              </a>
-            </div>
-            <div class="box-image col-lg-6 col-md-9 col-sm-12">
-              <img class="hero-image img-fluid mt-5" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688388821/Group_2621_be8sr1.png" alt="hero-image">
-            </div>
+    <section id="hero">
+      <div class="container">
+        <div class="box-container row align-items-center">
+          <div class="col-lg-6 col-md-9 col-sm-12 my-auto hero-content">
+            <h1 class="mt-4 fw-semibold">Bangun dan Wujudkan Cita Bersama EDUFREE</h1>
+            <p>EDUFREE adalah sebuah layanan kursus dan pelatihan gratis secara online yang bertujuan untuk membantu kamu meraih cita di bidang teknologi.</p>
+            <button class="btn button-hero fw-medium me-3">Lihat Kursus</button>
+            <a class="link-hero text-light text-decoration-none" href="#">
+              Lihat Alur Belajar
+              <img class="arrow" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688477675/arrow_epojfm.png" alt="long-arrow-right" />
+            </a>
+          </div>
+          <div class="box-image col-lg-6 col-md-9 col-sm-12">
+            <img class="hero-image img-fluid mt-5" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688388821/Group_2621_be8sr1.png" alt="hero-image" />
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     <!-- END SECTION HERO -->
 
     <!-- START SECTION DATA -->
-      <section class="py-3 d-flex align-items-center" id="data">
-        <div class="container my-3"> <!--  -->
-          <div class="box-data text-center row h-100 justify-content-lg-between">
-            <div class="data-content d-flex flex-lg-row flex-md-row flex-sm-column col-lg-5 justify-content-between">
-              <h3 class="mx-3">21.000+<br><span>Siswa Terdaftar</span></h3>
-              <h3 class="mx-3">100+<br><span>Instruktur Ahli</span></h3>
-              <h3 class="mx-3">150+<br><span>Kursus Gratis</span></h3>
+    <section class="py-3 d-flex align-items-center" id="data">
+      <div class="container my-3">
+        <!--  -->
+        <div class="box-data text-center row h-100 justify-content-lg-between">
+          <div class="data-content d-flex flex-lg-row flex-md-row flex-sm-column col-lg-5 justify-content-between">
+            <h3 class="mx-3">21.000+<br /><span>Siswa Terdaftar</span></h3>
+            <h3 class="mx-3">100+<br /><span>Instruktur Ahli</span></h3>
+            <h3 class="mx-3">150+<br /><span>Kursus Gratis</span></h3>
+          </div>
+          <div class="data-content d-flex flex-lg-row flex-md-row flex-sm-column col-lg-7 mt-md-2 justify-content-md-between">
+            <div class="data-text mx-lg-3 mx-md-2">
+              <p><img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688488152/Vector5_nzgr4x.png" alt="Lorem" /> Lorem</p>
             </div>
-            <div class="data-content d-flex flex-lg-row flex-md-row flex-sm-column col-lg-7 mt-md-2 justify-content-md-between">
-              <div class="data-text mx-lg-3 mx-md-2">
-                <p>
-                  <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688488152/Vector5_nzgr4x.png" alt="Lorem">
-                  Lorem
-                </p>
-              </div>
-              <div>
-                <p class="data-text mx-lg-3 mx-md-2">
-                  <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688487658/Vector1_l9jolm.png" alt="Ditlance">
-                  Ditlance
-                </p>
-              </div>
-              <div>
-                <p class="data-text mx-lg-3 mx-md-2">
-                  <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688487658/Vector2_zztvve.png" alt="Owthest">
-                  Owthest
-                </p>
-              </div>
-              <div>
-                <p class="data-text mx-lg-3 mx-md-2">
-                  <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688487658/Vector3_tsjiur.png" alt="Neovasi">
-                  Neovasi
-                </p>
-              </div>
-              <div>
-                <p class="data-text mx-lg-3 mx-md-2">
-                  <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688487658/Vector4_xnnzvc.png" alt="Nogano">
-                  Nogano
-                </p>
-              </div>
+            <div>
+              <p class="data-text mx-lg-3 mx-md-2"><img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688487658/Vector1_l9jolm.png" alt="Ditlance" /> Ditlance</p>
+            </div>
+            <div>
+              <p class="data-text mx-lg-3 mx-md-2"><img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688487658/Vector2_zztvve.png" alt="Owthest" /> Owthest</p>
+            </div>
+            <div>
+              <p class="data-text mx-lg-3 mx-md-2"><img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688487658/Vector3_tsjiur.png" alt="Neovasi" /> Neovasi</p>
+            </div>
+            <div>
+              <p class="data-text mx-lg-3 mx-md-2"><img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688487658/Vector4_xnnzvc.png" alt="Nogano" /> Nogano</p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     <!-- END SECTION DATA  -->
 
     <!-- START SECTION FEATURES -->
-      <section class="features">
-        <div class="container">
-          <div class="features-content">
-            <h1 class="text-center">Keuntungan Bergabung Dengan<br>E-Learning EDUFREE</h1>
-            <div class="row gap-4 justify-content-center">
-              <div class="card col-4" style="width: 300px;">
-                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-1_p5naqp.png" alt="num-1">
-                <h3 class="my-3 fw-medium">Kursus Gratis</h3>
-                <p>Kami menyediakan beberapa kursus gratis untuk menunjang ketersediaan pendidikan untuk masyarakat kurang mampu</p>
-              </div>
-              <div class="card col-4" style="width: 300px;">
-                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-2_qqit37.png" alt="num-2">
-                <h3 class="my-3 fw-medium">Akses Selamanya</h3>
-                <p>Semua kursus yang telah kamu daftar bisa diakses selamanya sehingga belajar kamu lebih nyaman dan tidak terburu-buru </p>
-              </div>
-              <div class="card col-4" style="width: 300px;">
-                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-3_k31dvk.png" alt="num-3">
-                <h3 class="my-3 fw-medium">Grup Konsultasi</h3>
-                <p>Terdapat grup konsultasi yang berguna jika kamu ingin menanyakan suatu pertanyaan  dan kamu juga bisa mebuka diskusi baru </p>
-              </div>
-              <div class="card col-4" style="width: 300px;">
-                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-4_i5pews.png" alt="num-4">
-                <h3 class="my-3 fw-medium">Sertifikat dan Portofolio</h3>
-                <p>Setelah menyelesaikan kursus kamu akan mendapatkan sertifikat serta portofolio dari project kursus yang telah diselesaikan</p>
-              </div>
-              <div class="card col-4" style="width: 300px;">
-                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-5_qxkv0d.png" alt="num-5">
-                <h3 class="my-3 fw-medium">Belajar Lebih Terarah</h3>
-                <p>Kursus menyediakan kursus dari level dasar hingga expert sehingga semua  bisa belajar dengan  layanan yang kami sediakan</p>
-              </div>
-              <div class="card col-4" style="width: 300px;">
-                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-6_dwslv9.png" alt="num-6">
-                <h3 class="my-3 fw-medium">Instruktur Berpengalaman</h3>
-                <p>Kami mempunyai instruktur berpengalaman yang diambil dari dunia industri yang tak diragukan lagi pengalamannya</p>
-              </div>
+    <section class="features">
+      <div class="container">
+        <div class="features-content">
+          <h1 class="text-center">Keuntungan Bergabung Dengan<br />E-Learning EDUFREE</h1>
+          <div class="row gap-4 justify-content-center">
+            <div class="card col-4" style="width: 300px">
+              <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-1_p5naqp.png" alt="num-1" />
+              <h3 class="my-3 fw-medium">Kursus Gratis</h3>
+              <p>Kami menyediakan beberapa kursus gratis untuk menunjang ketersediaan pendidikan untuk masyarakat kurang mampu</p>
+            </div>
+            <div class="card col-4" style="width: 300px">
+              <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-2_qqit37.png" alt="num-2" />
+              <h3 class="my-3 fw-medium">Akses Selamanya</h3>
+              <p>Semua kursus yang telah kamu daftar bisa diakses selamanya sehingga belajar kamu lebih nyaman dan tidak terburu-buru</p>
+            </div>
+            <div class="card col-4" style="width: 300px">
+              <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-3_k31dvk.png" alt="num-3" />
+              <h3 class="my-3 fw-medium">Grup Konsultasi</h3>
+              <p>Terdapat grup konsultasi yang berguna jika kamu ingin menanyakan suatu pertanyaan dan kamu juga bisa mebuka diskusi baru</p>
+            </div>
+            <div class="card col-4" style="width: 300px">
+              <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-4_i5pews.png" alt="num-4" />
+              <h3 class="my-3 fw-medium">Sertifikat dan Portofolio</h3>
+              <p>Setelah menyelesaikan kursus kamu akan mendapatkan sertifikat serta portofolio dari project kursus yang telah diselesaikan</p>
+            </div>
+            <div class="card col-4" style="width: 300px">
+              <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-5_qxkv0d.png" alt="num-5" />
+              <h3 class="my-3 fw-medium">Belajar Lebih Terarah</h3>
+              <p>Kursus menyediakan kursus dari level dasar hingga expert sehingga semua bisa belajar dengan layanan yang kami sediakan</p>
+            </div>
+            <div class="card col-4" style="width: 300px">
+              <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-6_dwslv9.png" alt="num-6" />
+              <h3 class="my-3 fw-medium">Instruktur Berpengalaman</h3>
+              <p>Kami mempunyai instruktur berpengalaman yang diambil dari dunia industri yang tak diragukan lagi pengalamannya</p>
             </div>
           </div>
-
-          <!-- START TENTANG KAMI -->
-
-          <div class="tentang-kami">
-            <div class="row justify-content-lg-between justify-content-md-center">
-              <div class="col-lg-6 col-md-9 col-sm-12 my-auto">
-                <span class="my-3">Tentang Kami</span>
-                <h2 class="my-3">EDUFREE Layanan E-Learning Gratis Untuk Membantu Kamu Bertumbuh</h2>
-                <p class="my-3">Edufree diharapkann bisa menjadi layanan yang bermanfaat bagi kedepanya dalam bidang pendidikan</p>
-              </div>
-                <img class="col-lg-6 col-md-9 col-sm-12 img-fluid" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688599882/feature-image_y9dhas.png" alt="feature-image">
-            </div>
-          </div>
-          <!-- END TENTANG KAMI -->
         </div>
-      </section>
+
+        <!-- START TENTANG KAMI -->
+
+        <div class="tentang-kami">
+          <div class="row justify-content-lg-between justify-content-md-center">
+            <div class="col-lg-6 col-md-9 col-sm-12 my-auto">
+              <span class="my-3">Tentang Kami</span>
+              <h2 class="my-3">EDUFREE Layanan E-Learning Gratis Untuk Membantu Kamu Bertumbuh</h2>
+              <p class="my-3">Edufree diharapkann bisa menjadi layanan yang bermanfaat bagi kedepanya dalam bidang pendidikan</p>
+            </div>
+            <img class="col-lg-6 col-md-9 col-sm-12 img-fluid" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688599882/feature-image_y9dhas.png" alt="feature-image" />
+          </div>
+        </div>
+        <!-- END TENTANG KAMI -->
+      </div>
+    </section>
     <!-- END SECTION FEATURES -->
 
     <!-- START SECTION KURSUS -->
@@ -184,13 +175,12 @@
       <div class="container">
         <div class="kursus-header row align-items-center justify-content-md-start">
           <div class="col-lg-6 col-md-9 col-sm-12">
-            <h2>Rekomendasi Kursus<br>Untuk Kamu</h2>
+            <h2>Rekomendasi Kursus<br />Untuk Kamu</h2>
           </div>
-          <div class="dropdown-kursus col-lg-6 col-md-9 col-sm-12"> <!-- Ini dibenerin lagi -->
+          <div class="dropdown-kursus col-lg-6 col-md-9 col-sm-12">
+            <!-- Ini dibenerin lagi -->
             <div class="dropdown d-flex justify-content-lg-end justify-content-md-start">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Kategori
-              </button>
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Kategori</button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Pemograman Web</a></li>
                 <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
@@ -200,348 +190,340 @@
             </div>
           </div>
         </div>
-        <hr class="w-100">
+        <hr class="w-100" />
         <div class="kursus-features">
-            <div class="box-card row justify-content-lg-between justify-content-md-center justify-content-sm-center mt-4">
-              <div class="card col-lg-4 col-md-6 col-sm-12">
-                <img class="img-fluid" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688748677/kursus-img-1_srukt9.png" class="card-img" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Dasar Pemrograman WEB </h5>
-                  <p class="card-text">Materi pembelajarn mengenai pembuatan website tingkat pemula</p>
+          <div class="box-card row justify-content-lg-between justify-content-md-center justify-content-sm-center mt-4">
+            <div class="card col-lg-4 col-md-6 col-sm-12">
+              <img class="img-fluid" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688748677/kursus-img-1_srukt9.png" class="card-img" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Dasar Pemrograman WEB</h5>
+                <p class="card-text">Materi pembelajarn mengenai pembuatan website tingkat pemula</p>
+                <div class="item-card row">
+                  <div class="time d-flex col">
+                    <img class="me-1" width="15" height="15" src="https://img.icons8.com/ios/15/time--v1.png" alt="time--v1" />
+                    <p style="font-size: 13px">4,5 Jam</p>
+                  </div>
+                  <div class="video d-flex col">
+                    <img class="me-1" width="12" height="12" src="https://img.icons8.com/ios/12/circled-play--v1.png" alt="circled-play--v1" />
+                    <p style="font-size: 13px">20 Video</p>
+                  </div>
+                  <div class="people d-flex col">
+                    <img class="me-1" width="15" height="15" src="https://img.icons8.com/ios/15/queue.png" alt="queue" />
+                    <p style="font-size: 13px">1900 Orang</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-6 col-sm-12">
+              <img class="img-fluid" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688748686/kursus-img-2_nwcpue.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Digital Marketing 101</h5>
+                <p class="card-text">Materi mengenai strategi dan konsep marketing pemula</p>
+                <div class="item-card">
                   <div class="item-card row">
                     <div class="time d-flex col">
-                      <img class="me-1" width="15" height="15" src="https://img.icons8.com/ios/15/time--v1.png" alt="time--v1"/>
-                      <p style="font-size: 13px;">4,5 Jam</p>
+                      <img class="me-1" width="16" height="16" src="https://img.icons8.com/ios/16/time--v1.png" alt="time--v1" />
+                      <p style="font-size: 14px">6,2 Jam</p>
                     </div>
                     <div class="video d-flex col">
-                      <img class="me-1" width="12" height="12" src="https://img.icons8.com/ios/12/circled-play--v1.png" alt="circled-play--v1"/>
-                      <p style="font-size: 13px;">20 Video</p>
+                      <img class="me-1" width="15" height="15" src="https://img.icons8.com/ios/15/circled-play--v1.png" alt="circled-play--v1" />
+                      <p>32 Video</p>
                     </div>
                     <div class="people d-flex col">
-                      <img class="me-1" width="15" height="15" src="https://img.icons8.com/ios/15/queue.png" alt="queue"/>
-                      <p style="font-size: 13px;">1900 Orang</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card col-lg-4 col-md-6 col-sm-12">
-                <img class="img-fluid" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688748686/kursus-img-2_nwcpue.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Digital Marketing 101</h5>
-                  <p class="card-text">Materi mengenai strategi dan konsep marketing  pemula</p>
-                  <div class="item-card">
-                    <div class="item-card row">
-                      <div class="time d-flex col">
-                        <img class="me-1" width="16" height="16" src="https://img.icons8.com/ios/16/time--v1.png" alt="time--v1"/>
-                        <p style="font-size: 14px;">6,2 Jam</p>
-                      </div>
-                      <div class="video d-flex col">
-                        <img class="me-1" width="15" height="15" src="https://img.icons8.com/ios/15/circled-play--v1.png" alt="circled-play--v1"/>
-                        <p>32 Video</p>
-                      </div>
-                      <div class="people d-flex col">
-                        <img class="me-1" width="17" height="17" src="https://img.icons8.com/ios/17/queue.png" alt="queue"/>
-                        <p>930 Orang</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card col-lg-4 col-md-6 col-sm-12">
-                <img class="img-fluid" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688748686/kursus-img-3_axplmq.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Data Science Dasar</h5>
-                  <p class="card-text">Materi pembelajaran mengenai dasar-dasar data science</p>
-                  <div class="item-card">
-                    <div class="item-card row">
-                      <div class="time d-flex col">
-                        <img class="me-1" width="16" height="16" src="https://img.icons8.com/ios/16/time--v1.png" alt="time--v1"/>
-                        <p style="font-size: 14px;">8 Jam</p>
-                      </div>
-                      <div class="video d-flex col">
-                        <img class="me-1" width="15" height="15" src="https://img.icons8.com/ios/15/circled-play--v1.png" alt="circled-play--v1"/>
-                        <p>46 Video</p>
-                      </div>
-                      <div class="people d-flex col">
-                        <img class="me-1" width="17" height="17" src="https://img.icons8.com/ios/17/queue.png" alt="queue"/>
-                        <p>1043 Orang</p>
-                      </div>
+                      <img class="me-1" width="17" height="17" src="https://img.icons8.com/ios/17/queue.png" alt="queue" />
+                      <p>930 Orang</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="card col-lg-4 col-md-6 col-sm-12">
+              <img class="img-fluid" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688748686/kursus-img-3_axplmq.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Data Science Dasar</h5>
+                <p class="card-text">Materi pembelajaran mengenai dasar-dasar data science</p>
+                <div class="item-card">
+                  <div class="item-card row">
+                    <div class="time d-flex col">
+                      <img class="me-1" width="16" height="16" src="https://img.icons8.com/ios/16/time--v1.png" alt="time--v1" />
+                      <p style="font-size: 14px">8 Jam</p>
+                    </div>
+                    <div class="video d-flex col">
+                      <img class="me-1" width="15" height="15" src="https://img.icons8.com/ios/15/circled-play--v1.png" alt="circled-play--v1" />
+                      <p>46 Video</p>
+                    </div>
+                    <div class="people d-flex col">
+                      <img class="me-1" width="17" height="17" src="https://img.icons8.com/ios/17/queue.png" alt="queue" />
+                      <p>1043 Orang</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      </section>
+    </section>
     <!-- END SECTION KURSUS -->
 
     <!-- START SECTION TESTIMONI -->
-      <section class="testimoni">
-        <div class="container mx-0 w-100">
-          <div class="box-testimoni row p-5 align-items-lg-center justify-content-md-center"> <!-- Ini diperbaiki lagi stylingnya -->
-            <div class="left-side col-lg-6 col-md-9 col-sm-12 text-lg-start text-sm-center">
-              <h3>Kata Mereka Tentang Kursus EDUFREE</h3>
-              <p>EDUFREE telah dipercaya lebih dari 10.000 siswa</p>
-            </div>
-            <div class="right-side col-lg-6 col-md-9 col-sm-12">
-              <p>"Materi yang disampaikan mudah dimengerti, kualitas instruktur sangat baik serta  responnya yang cepat. So, kursus disini sangat sangat saya rekomendasikan!!"</p>
-              <div class="testimoni-people row justify-content-">
-                <div class="people d-flex col">
-                  <div class="photo">
-                    <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688773562/woman-in-collared-shirt-774909_ubta5m.png" alt="">
-                  </div>
-                  <div class="title col ms-3">
-                    <h5>Jenny Wilson</h5>
-                    <span>Vice Presiden</span>
-                  </div>
+    <section class="testimoni">
+      <div class="container mx-0 w-100">
+        <div class="box-testimoni row p-5 align-items-lg-center justify-content-md-center">
+          <!-- Ini diperbaiki lagi stylingnya -->
+          <div class="left-side col-lg-6 col-md-9 col-sm-12 text-lg-start text-sm-center">
+            <h3>Kata Mereka Tentang Kursus EDUFREE</h3>
+            <p>EDUFREE telah dipercaya lebih dari 10.000 siswa</p>
+          </div>
+          <div class="right-side col-lg-6 col-md-9 col-sm-12">
+            <p>"Materi yang disampaikan mudah dimengerti, kualitas instruktur sangat baik serta responnya yang cepat. So, kursus disini sangat sangat saya rekomendasikan!!"</p>
+            <div class="testimoni-people row justify-content-">
+              <div class="people d-flex col">
+                <div class="photo">
+                  <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688773562/woman-in-collared-shirt-774909_ubta5m.png" alt="" />
                 </div>
-                <div class="dotted col">
-                  <img style="max-width: 100px;" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688763393/dot_mfqses.png" alt="">
+                <div class="title col ms-3">
+                  <h5>Jenny Wilson</h5>
+                  <span>Vice Presiden</span>
                 </div>
+              </div>
+              <div class="dotted col">
+                <img style="max-width: 100px" src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688763393/dot_mfqses.png" alt="" />
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     <!-- START SECTION TESTIMONI -->
 
-      <!-- START SECTION FAQ -->
-      <section class="faq">
-        <div class="container">
-          <div class="box row">
-            <div class="title-box col-lg-4 col-md-6 col-sm-12">
-              <h3>Frequently Asked Question</h3>
-              <p>Masih bingung atau ragu? Hubungi kami di nomor  +6288 999 222 333</p>
+    <!-- START SECTION FAQ -->
+    <section class="faq">
+      <div class="container">
+        <div class="box row">
+          <div class="title-box col-lg-4 col-md-6 col-sm-12">
+            <h3>Frequently Asked Question</h3>
+            <p>Masih bingung atau ragu? Hubungi kami di nomor +6288 999 222 333</p>
+          </div>
+          <div class="accordion col-lg-8 col-md-6 col-sm-12" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Apakah kursus ini benar-benar gratis?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">Kursus yang disediakan bisa diakses gratis untuk menunjang kebutuhan dalam bidang kependidikan.</div>
+              </div>
             </div>
-            <div class="accordion col-lg-8 col-md-6 col-sm-12" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                    Apakah kursus ini benar-benar gratis?
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                  <div class="accordion-body">
-                    Kursus yang disediakan bisa diakses gratis untuk menunjang kebutuhan dalam bidang kependidikan.
-                  </div>
-                </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Untuk siapa kursus ini?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus impedit, reiciendis eius praesentium perspiciatis cupiditate</div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                    Untuk siapa kursus ini?
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus impedit, reiciendis eius praesentium perspiciatis cupiditate
-                  </div>
-                </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Apakah kursus ini bersertifikat?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores cumque aliquam facilis accusamus laboriosam quis.</div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                    Apakah kursus ini bersertifikat?
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores cumque aliquam facilis accusamus laboriosam quis.
-                  </div>
-                </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                  Sampai kapan kursus ini berakhir?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores cumque aliquam facilis accusamus laboriosam quis.</div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                    Sampai kapan kursus ini berakhir?
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores cumque aliquam facilis accusamus laboriosam quis.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                    Apakah ada penyaluran kerja setelah lulus?
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores cumque aliquam facilis accusamus laboriosam quis.
-                  </div>
-                </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                  Apakah ada penyaluran kerja setelah lulus?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores cumque aliquam facilis accusamus laboriosam quis.</div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- END SECTION FAQ -->
-
-      <!-- START SECTION REGISTRATION -->
-
-      <section class="registration">
-        <div class="container">
-          <div class="box row mb-5">
-            <div class="box-left col-lg-6 col-md-12">
-              <h2 class="mt-3">Selangkah Lebih Dekat Dengan Impianmu</h2>
-              <p class="mt-3 mb-3">Sebuah layanan E-Learning gratis yang siap membantumu menjadi seorang ahli </p>
-            </div>
-            <div class="box-right col-lg-6 col-md-12">
-              <h3>Daftarkan Dirimu!</h3>
-              <p>Persiapkan diri untuk masa depan yang penuh bintang</p>
-              <form>
-                <div class="mb-3">
-                  <input type="text" class="form-control" id="exampleInputText1" placeholder="Your Name">
-                </div>
-                <div class="mb-3">
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-                </div>
-                <div class="mb-3">
-                  <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock" placeholder="Password">
-                </div>
-                <button type="submit" class="btn w-100">DAFTAR</button>
-              </form>
-              <p class="text-center mt-3">Sudah punya akun? <a href="#" class="text-decoration-none text-light">Login</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- END SECTION REGISTRATION -->
-
-      <!-- START SECTION BLOG -->
-      <section class="blog">
-        <div class="container">
-          <div class="box row">
-            <div class="box-header row mb-5">
-              <h1 class="col-lg-6 col-md-6 col-sm-12">Blog, Berita dan Event</h1>
-              <a class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-lg-end align-items-lg-center justify-content-md-end align-items-md-center text-decoration-none" href="#">
-                Lihat Semua
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                </svg>
-              </a>
-            </div>
-            <div class="box-content row justify-content-between">
-              <div class="card col-lg-4 col-md-6 col-sm-12">
-                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1689173217/blog-1_daxbao.png" class="card-img-top" alt="blog image" style="width: 100%;">
-                <div class="card-body">
-                  <span class="fs-6 text-secondary">19 Jan 2022</span>
-                  <h5 class="card-title">Cara Mudah Untuk Memulai Belajar Programming - EDUFREE </h5>
-                  <p class="card-text">Menjadi seorang programmer saat ini sudah sangat mudah untuk dipelajari oleh siapapun ...</p>
-                  <a href="#" class="fs-6">
-                    Selengkapnya
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card col-lg-4 col-md-6 col-sm-12">
-                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1689173213/blog-2_qywqvg.png" class="card-img-top" alt="blog image" style="width: 100%;">
-                <div class="card-body">
-                  <span class="fs-6 text-secondary">19 Jan 2022</span>
-                  <h5 class="card-title">Tips Membuat Website Landing Page Bussines - EDUFREE</h5>
-                  <p class="card-text">Pentingnya website dalam menumbuhkan rasa kepercayaan terhadap bisnis, membuat ...</p>
-                  <a href="#" class="fs-6">
-                    Selengkapnya
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card col-lg-4 col-md-6 col-sm-12">
-                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1689173213/blog-3_csdcut.png" class="card-img-top" alt="blog image" style="width: 100%;">
-                <div class="card-body">
-                  <span class="fs-6 text-secondary">19 Jan 2022</span>
-                  <h5 class="card-title">Cara Installasi Wordpress Untuk Pemula -EDUFREE</h5>
-                  <p class="card-text">Membuat website saat ini sudah bisa tanpa codingan, kini kamu bisa membuatnya dengan ...</p>
-                  <a href="#" class="fs-6">
-                    Selengkapnya
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- END SECTION BLOG -->
-
-      <!-- START SECTION FOOTER -->
-      <footer class="pt-lg-5 pt-md-3">
-        <div class="container">
-          <div class="box row">
-            <div class="box-title col-lg-6 col-md-12 d-flex flex-column justify-content-between">
-              <div class="text">
-                <h2 class="mb-3">[EDUFREE]</h2>
-                <p>Bangun dan wujudkan cita bersama <br>edufree</p>
-              </div>
-            </div>
-            <div class="box-content row col-lg-6 col-md-12 justify-content-center ">
-              <div class="content-items col-2" style="width: 160px;">
-                <h6 class="mb-3 text-light">Social Media</h6>
-                <a href="#">Instagram</a>
-                <a href="#">Twitter</a><br>
-                <a href="#">LinkedIn</a>
-              </div>
-              <div class="content-items col-2" style="width: 160px;">
-                <h6 class="mb-3 text-light">Program</h6>
-                <a href="#">Merdeka Belajar</a>
-                <a href="#">Finterpreneur</a>
-              </div>
-              <div class="content-items col-2" style="width: 160px;">
-                <h6 class="mb-3 text-light">Dukungan</h6>
-                <a href="#">Tentang Kami</a>
-                <a href="#">Ketentuan</a>
-                <a href="#">Kebijakan Privasi</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container boxfoooter ms-5 "> <!-- Perlu dibenahi lagi -->
-          <div class=" row pt-2 ">
-              <div class="col-md-6 col-sm-12 mt-3 ">
-                  <h6 class="ms-2 footerboxtitle fw-medium">Email</h6>
-                  <a href="" class="ms-2 text-decoration-none fw-light footerboxtitle ">contact@website.com</a>
-              </div>
-              <div class="col-md-6 col-sm-12  mt-3 ">
-                  <h6 class="fw-medium footerboxtitle ms-2 ">Telephone</h6>
-                  <a href=" " class="text-decoration-none fw-light footerboxtitle ms-2 ">+6288 999 222 333</a>
-              </div>
-          </div>
       </div>
-      </footer>
-      <!-- END SECTION FOOTER -->
+    </section>
+    <!-- END SECTION FAQ -->
 
-      <!-- COPYRIGHT -->
-      <section class="mb-2">
-        <div class="container">
-            <div class="row mt-3 d-flex justify-content">
-                <div class="col-lg-6 fs-6 fw-medium  footerbw1 fs-7">© Copyright EDUFREE 2021 - 2022</div>
+    <!-- START SECTION REGISTRATION -->
 
-                <div class="col-lg-4  fs-6 fw-medium  ms-auto fs-7 ">
-                    <div>
-                        <a href="#" class="text-decoration-none me-2 footerbw2">Home</a>
-                        <a href="#" class="text-decoration-none me-2 footerbw2">Tentang Kami</a>
-                        <a href="#" class="text-decoration-none me-2 footerbw2 ">Kursus</a>
-                        <a href="#" class="text-decoration-none me-2 footerbw2">FAQ</a>
-                        <a href="#" class="text-decoration-none me-2 footerbw2">BLOG</a>
-                    </div>
-                </div>
+    <section class="registration">
+      <div class="container">
+        <div class="box row mb-5">
+          <div class="box-left col-lg-6 col-md-12">
+            <h2 class="mt-3">Selangkah Lebih Dekat Dengan Impianmu</h2>
+            <p class="mt-3 mb-3">Sebuah layanan E-Learning gratis yang siap membantumu menjadi seorang ahli</p>
+          </div>
+          <div class="box-right col-lg-6 col-md-12">
+            <h3>Daftarkan Dirimu!</h3>
+            <p>Persiapkan diri untuk masa depan yang penuh bintang</p>
+            <form>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleInputText1" placeholder="Your Name" />
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" />
+              </div>
+              <div class="mb-3">
+                <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock" placeholder="Password" />
+              </div>
+              <button type="submit" class="btn w-100">DAFTAR</button>
+            </form>
+            <p class="text-center mt-3">Sudah punya akun? <a href="#" class="text-decoration-none text-light">Login</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION REGISTRATION -->
+
+    <!-- START SECTION BLOG -->
+    <section class="blog">
+      <div class="container">
+        <div class="box row">
+          <div class="box-header row mb-5">
+            <h1 class="col-lg-6 col-md-6 col-sm-12">Blog, Berita dan Event</h1>
+            <a class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-lg-end align-items-lg-center justify-content-md-end align-items-md-center text-decoration-none" href="#">
+              Lihat Semua
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg>
+            </a>
+          </div>
+          <div class="box-content row justify-content-between">
+            <div class="card col-lg-4 col-md-6 col-sm-12">
+              <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1689173217/blog-1_daxbao.png" class="card-img-top" alt="blog image" style="width: 100%" />
+              <div class="card-body">
+                <span class="fs-6 text-secondary">19 Jan 2022</span>
+                <h5 class="card-title">Cara Mudah Untuk Memulai Belajar Programming - EDUFREE</h5>
+                <p class="card-text">Menjadi seorang programmer saat ini sudah sangat mudah untuk dipelajari oleh siapapun ...</p>
+                <a href="#" class="fs-6">
+                  Selengkapnya
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                  </svg>
+                </a>
               </div>
             </div>
-          </section>
-      <!-- COPYRIGHT -->
+            <div class="card col-lg-4 col-md-6 col-sm-12">
+              <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1689173213/blog-2_qywqvg.png" class="card-img-top" alt="blog image" style="width: 100%" />
+              <div class="card-body">
+                <span class="fs-6 text-secondary">19 Jan 2022</span>
+                <h5 class="card-title">Tips Membuat Website Landing Page Bussines - EDUFREE</h5>
+                <p class="card-text">Pentingnya website dalam menumbuhkan rasa kepercayaan terhadap bisnis, membuat ...</p>
+                <a href="#" class="fs-6">
+                  Selengkapnya
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-6 col-sm-12">
+              <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1689173213/blog-3_csdcut.png" class="card-img-top" alt="blog image" style="width: 100%" />
+              <div class="card-body">
+                <span class="fs-6 text-secondary">19 Jan 2022</span>
+                <h5 class="card-title">Cara Installasi Wordpress Untuk Pemula -EDUFREE</h5>
+                <p class="card-text">Membuat website saat ini sudah bisa tanpa codingan, kini kamu bisa membuatnya dengan ...</p>
+                <a href="#" class="fs-6">
+                  Selengkapnya
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION BLOG -->
 
-  <!-- SCRIPT BOOTSTRAP -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
-</body>
+    <!-- START SECTION FOOTER -->
+    <footer class="pt-lg-5 pt-md-3">
+      <div class="container">
+        <div class="box row">
+          <div class="box-title col-lg-6 col-md-12 d-flex flex-column justify-content-between">
+            <div class="text">
+              <h2 class="mb-3">[EDUFREE]</h2>
+              <p>Bangun dan wujudkan cita bersama <br />edufree</p>
+            </div>
+          </div>
+          <div class="box-content row col-lg-6 col-md-12 justify-content-center">
+            <div class="content-items col-2" style="width: 160px">
+              <h6 class="mb-3 text-light">Social Media</h6>
+              <a href="#">Instagram</a>
+              <a href="#">Twitter</a><br />
+              <a href="#">LinkedIn</a>
+            </div>
+            <div class="content-items col-2" style="width: 160px">
+              <h6 class="mb-3 text-light">Program</h6>
+              <a href="#">Merdeka Belajar</a>
+              <a href="#">Finterpreneur</a>
+            </div>
+            <div class="content-items col-2" style="width: 160px">
+              <h6 class="mb-3 text-light">Dukungan</h6>
+              <a href="#">Tentang Kami</a>
+              <a href="#">Ketentuan</a>
+              <a href="#">Kebijakan Privasi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container boxfoooter ms-5">
+        <!-- Perlu dibenahi lagi -->
+        <div class="row pt-2">
+          <div class="col-md-6 col-sm-12 mt-3">
+            <h6 class="ms-2 footerboxtitle fw-medium">Email</h6>
+            <a href="" class="ms-2 text-decoration-none fw-light footerboxtitle">contact@website.com</a>
+          </div>
+          <div class="col-md-6 col-sm-12 mt-3">
+            <h6 class="fw-medium footerboxtitle ms-2">Telephone</h6>
+            <a href=" " class="text-decoration-none fw-light footerboxtitle ms-2">+6288 999 222 333</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END SECTION FOOTER -->
+
+    <!-- COPYRIGHT -->
+    <section class="mb-2">
+      <div class="container">
+        <div class="row mt-3 d-flex justify-content">
+          <div class="col-lg-6 fs-6 fw-medium footerbw1 fs-7">© Copyright EDUFREE 2021 - 2022</div>
+
+          <div class="col-lg-4 fs-6 fw-medium ms-auto fs-7">
+            <div>
+              <a href="#" class="text-decoration-none me-2 footerbw2">Home</a>
+              <a href="#" class="text-decoration-none me-2 footerbw2">Tentang Kami</a>
+              <a href="#" class="text-decoration-none me-2 footerbw2">Kursus</a>
+              <a href="#" class="text-decoration-none me-2 footerbw2">FAQ</a>
+              <a href="#" class="text-decoration-none me-2 footerbw2">BLOG</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- COPYRIGHT -->
+
+    <!-- SCRIPT BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+  </body>
 </html>
